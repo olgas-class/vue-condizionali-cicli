@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: calc(100% / 3 - 10px);
+    border: 1px solid black;
+    padding: 10px;
+}
+
